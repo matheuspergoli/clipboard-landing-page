@@ -66,16 +66,24 @@ body {
 
 .my-btn {
     display: inline-block;
-    width: 190px;
-    height: 40px;
+    width: 200px;
+    height: 45px;
     margin: 0px 15px;
     color: white;
     font-weight: bold;
-    line-height: 40px;
+    line-height: 45px;
     border-radius: 25px;
     text-decoration: none;
 }
 
 .my-btn:hover {
     color: white;
+}
+
+@media (max-width: 576px) {
+    .my-btn {
+        width: 300px;
+        height: 50px;
+        line-height: 50px;
+    }
 }
