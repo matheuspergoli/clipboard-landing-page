@@ -56,6 +56,19 @@ body {
     color: var(--grayish-blue);
 }
 
+.link-footer {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+.img-footer {
+    height: 50px;
+}
+
+.bg-footer {
+    background-color: rgba(159, 171, 178, 0.2);
+}
+
 .bg-light-blue {
     background-color: var(--light-blue);
 }
